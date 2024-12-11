@@ -2,7 +2,7 @@ version: '3'
 services:
     app:
         build: ./docker/php/
-        container_name: app
+        container_name: app-curriculumn
         restart: unless-stopped
         working_dir: /var/www/
         volumes:
@@ -13,7 +13,7 @@ services:
     nginx:
         image: nginx:alpine
         restart: unless-stopped
-        container_name: nginx
+        container_name: nginx-curriculumn
         ports:
             - "8000:80"
         volumes:
@@ -24,7 +24,7 @@ services:
 
     dbmysql:
         build: ./docker/mysql
-        container_name: mysql
+        container_name: mysql-curriculumn
         restart: always
         tty: true
         environment:
@@ -36,6 +36,16 @@ services:
             - ./docker/mysql/.dbdata:/var/lib/mysql
         networks:
             - server
+    node:
+        image: node:22
+        container_name: node
+        restart: unless-stopped
+        working_dir: /var/www/
+        volumes:
+            - ./:/var/www
+        networks:
+            - server
+        command: bash -c "npm install && tail -f /dev/null"
 
 networks:
     server:
