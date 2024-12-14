@@ -33,7 +33,7 @@
             </a>
         </li>
         <x-site.menu-link label_link="Certificados" href="{{ route('certificate.index') }}" />
-        <x-site.menu-link label_link="Skill" href="#" />
+        <x-site.menu-link label_link="Experiência" href="{{ route('experience.index') }}" />
 
       </ul>
     </div>

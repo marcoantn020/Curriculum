@@ -19,7 +19,7 @@
 
         <x-certificate.corousel-certificate
                 :image_1="asset('imagens/dart/dart-1.png')"
-                :image_2="asset('imagens/csharp/dart-2.png')" />
+                :image_2="asset('imagens/dart/dart-2.png')" />
 
     </x-certificate.card-corousel>
 

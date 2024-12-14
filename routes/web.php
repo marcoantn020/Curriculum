@@ -5,6 +5,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', SiteController::class)->name('site');
 Route::get('/certificados', [SiteController::class, 'certificate'])->name('certificate.index');
+Route::get('/experiencia', [SiteController::class, 'experience'])->name('experience.index');
 
 Route::get('/dashboard', function () {
     return view('dashboard');
