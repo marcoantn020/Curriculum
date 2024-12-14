@@ -17,13 +17,9 @@
     <body class="font-sans antialiased">
         <div class="min-h-screen bg-gray-100 dark:bg-gray-800">
             <x-site.header />
-            <!-- Page Content -->
+
             <main class="container mx-auto space-y-5">
-                <x-site.card-profile />
-                <br>
-                <x-site.presentation />
-                <br>
-                <x-site.hobbies />
+                {{ $slot }}
             </main>
 
         </div>
@@ -36,5 +32,75 @@
                 document.documentElement.classList.remove('dark')
             }
         </script>
+
+
+        <script>
+            const tabsElement = document.getElementById('tabs-certificate');
+
+            // create an array of objects with the id, trigger element (eg. button), and the content element
+            const tabElements = [
+                {
+                    id: 'php',
+                    triggerEl: document.querySelector('#tab-php'),
+                    targetEl: document.querySelector('#php'),
+                },
+                {
+                    id: 'java',
+                    triggerEl: document.querySelector('#tab-java'),
+                    targetEl: document.querySelector('#java'),
+                },
+                {
+                    id: 'python',
+                    triggerEl: document.querySelector('#tab-python'),
+                    targetEl: document.querySelector('#python'),
+                },
+                {
+                    id: 'frontend',
+                    triggerEl: document.querySelector('#tab-frontend'),
+                    targetEl: document.querySelector('#frontend'),
+                },
+                {
+                    id: 'aws',
+                    triggerEl: document.querySelector('#tab-aws'),
+                    targetEl: document.querySelector('#aws'),
+                },
+                {
+                    id: 'behavior',
+                    triggerEl: document.querySelector('#tab-behavior'),
+                    targetEl: document.querySelector('#behavior'),
+                },
+                {
+                    id: 'fullcycle',
+                    triggerEl: document.querySelector('#tab-fullcycle'),
+                    targetEl: document.querySelector('#fullcycle'),
+                },
+                {
+                    id: 'others',
+                    triggerEl: document.querySelector('#tab-others'),
+                    targetEl: document.querySelector('#others'),
+                },
+            ];
+
+            // options with default values
+            const options = {
+                defaultTabId: 'php',
+                activeClasses:
+                    'text-blue-600 hover:text-blue-600 dark:text-blue-500 dark:hover:text-blue-400 border-blue-600 dark:border-blue-500',
+                inactiveClasses:
+                    'text-gray-500 hover:text-gray-600 dark:text-gray-400 border-gray-100 hover:border-gray-300 dark:border-gray-700 dark:hover:text-gray-300',
+                onShow: () => {
+                    console.log('tab is shown');
+                },
+            };
+
+            // instance options with default values
+            const instanceOptions = {
+            id: 'tabs-example',
+            override: true
+            };
+
+        </script>
+
+
     </body>
 </html>
