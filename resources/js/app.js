@@ -3,6 +3,9 @@ import './bootstrap';
 import Alpine from 'alpinejs';
 import 'flowbite';
 
+import { Tabs } from 'flowbite';
+
+
 window.Alpine = Alpine;
 
 Alpine.start();
@@ -47,3 +50,5 @@ themeToggleBtn.addEventListener('click', function() {
     }
 
 });
+
+const tabs = new Tabs(tabsElement, tabElements, options, instanceOptions);

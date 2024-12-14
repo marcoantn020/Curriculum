@@ -1,4 +1,4 @@
-<div class="flex flex-col items-center justify-around py-1 my-0 rounded-lg shadow md:flex-row md:max-w-full dark:bg-gray-800">
+<div class="flex flex-col items-center justify-around px-2 py-4 my-0 rounded-lg shadow md:flex-row md:max-w-full dark:bg-gray-800">
     <div class="md:my-0 md:pr-2 md:w-2/3">
         <h5 class="px-2 text-xl font-bold dark:text-white">Sobre</h5>
 
