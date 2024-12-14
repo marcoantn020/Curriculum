@@ -1,11 +1,10 @@
 <?php
 
-use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\{ProfileController, SiteController};
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', SiteController::class)->name('site');
+Route::get('/certificados', [SiteController::class, 'certificate'])->name('certificate.index');
 
 Route::get('/dashboard', function () {
     return view('dashboard');

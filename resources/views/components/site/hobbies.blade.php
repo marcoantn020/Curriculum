@@ -1,4 +1,4 @@
-<div class="flex flex-col items-center py-2 rounded-lg shadow md:max-w-full dark:bg-gray-800">
+<div class="flex flex-col items-center p-4 py-2 rounded-lg shadow md:max-w-full dark:bg-gray-800">
 
     <h5 class="mb-3 text-xl font-bold dark:text-white">
         Hobbies
