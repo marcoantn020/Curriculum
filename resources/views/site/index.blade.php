@@ -6,4 +6,6 @@
     <br>
     <x-site.hobbies />
 
+    <x-site.education />
+
 </x-guest-layout>

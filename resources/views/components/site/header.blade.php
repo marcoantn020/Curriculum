@@ -1,6 +1,7 @@
 
-<nav class="mb-2 bg-white border-gray-200 dark:bg-gray-900">
-  <div class="flex flex-wrap items-center justify-between max-w-screen-xl p-4 mx-auto">
+{{-- <nav class="mb-2 bg-white border-gray-200 dark:bg-gray-900"> --}}
+<nav class="fixed top-0 z-50 w-full mb-16 bg-white border-b border-gray-200 dark:bg-gray-900 start-0 dark:border-gray-600">
+    <div class="flex flex-wrap items-center justify-between max-w-screen-xl p-4 mx-auto">
     <div class="flex gap-4">
         <a href="{{ route('site') }}" class="flex items-center space-x-3 rtl:space-x-reverse">
             <img src="https://flowbite.com/docs/images/logo.svg" class="h-8" alt="Flowbite Logo" />

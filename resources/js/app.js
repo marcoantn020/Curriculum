@@ -5,8 +5,6 @@ import 'flowbite';
 
 import { Tabs } from 'flowbite';
 
-const tabs = new Tabs(tabsElement, tabElements, options, instanceOptions);
-
 
 window.Alpine = Alpine;
 
@@ -53,3 +51,4 @@ themeToggleBtn.addEventListener('click', function() {
 
 });
 
+const tabs = new Tabs(tabsElement, tabElements, options, instanceOptions);
