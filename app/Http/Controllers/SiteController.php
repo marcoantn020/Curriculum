@@ -15,4 +15,9 @@ class SiteController extends Controller
     {
         return view('site.certificate.index');
     }
+
+    public function experience(): View
+    {
+        return view('site.experience.index');
+    }
 }
