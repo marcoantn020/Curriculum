@@ -51,4 +51,4 @@ themeToggleBtn.addEventListener('click', function() {
 
 });
 
-const tabs = new Tabs(tabsElement, tabElements, options, instanceOptions);
+new Tabs(tabsElement, tabElements, options, instanceOptions);
