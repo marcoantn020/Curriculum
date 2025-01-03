@@ -20,4 +20,9 @@ class SiteController extends Controller
     {
         return view('site.experience.index');
     }
+
+    public function projects(): View
+    {
+        return view('site.projects.index');
+    }
 }

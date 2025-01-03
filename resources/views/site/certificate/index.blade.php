@@ -74,7 +74,7 @@
 
 
 
-@push('scripts')
+{{--@push('scripts')--}}
     <script>
         const tabsElement = document.getElementById('tabs-certificate');
 
@@ -142,7 +142,7 @@
 
 
     </script>
-@endpush
+{{--@endpush--}}
 
 
 
