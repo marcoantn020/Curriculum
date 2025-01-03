@@ -34,6 +34,7 @@
         </li>
         <x-site.menu-link label_link="Certificados" href="{{ route('certificate.index') }}" />
         <x-site.menu-link label_link="Experiência" href="{{ route('experience.index') }}" />
+        <x-site.menu-link label_link="Projetos" href="{{ route('projects.index') }}" />
 
       </ul>
     </div>
