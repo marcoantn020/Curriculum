@@ -18,7 +18,7 @@
         </h2>
         <div id="accordion-collapse-body-1" class="hidden" aria-labelledby="accordion-collapse-heading-1">
         <x-experience.body-accordion
-            period="22/04/2024 até o presente momento"
+            period="22/07/2024 até o presente momento"
             work="Programador desktop junior"
             function="Responsável pela manutenção de sistema contabil legado na linguagem clarion 6 com banco de dados PostgreSQL,
                     correção de bugs e implementação de novas funcionalidades conforme as necessidades do negócio,

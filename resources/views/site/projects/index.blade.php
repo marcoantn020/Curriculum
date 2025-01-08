@@ -6,6 +6,28 @@
         <x-projects.card-corousel-projects>
 
             <x-projects.card-project-detail
+                title="Crud simples com autenticação"
+                git="https://github.com/marcoantn020/java-login-autentication-simple"
+                :image_1="asset('imagens/projects/project1.png')"
+                :image_2="asset('imagens/projects/project2.png')"
+            />
+
+        </x-projects.card-corousel-projects>
+
+        <x-projects.card-corousel-projects>
+
+            <x-projects.card-project-detail
+                title="Mini Tweeter Clone"
+                git="https://github.com/marcoantn020/mini-clone-tweeter"
+                :image_1="asset('imagens/projects/tweeter.png')"
+                :image_2="asset('imagens/projects/tweeter1.png')"
+            />
+
+        </x-projects.card-corousel-projects>
+
+        <x-projects.card-corousel-projects>
+
+            <x-projects.card-project-detail
                 title="Bate Papo"
                 git="https://github.com/marcoantn020/Bate-papo"
                 :image_1="asset('imagens/projects/batepapo.png')"
@@ -73,7 +95,7 @@
 
             <x-projects.card-project-detail
                 title="Biblioteca de memorias"
-                git="https://github.com/marcoantn020/angular-agenda"
+                git="https://github.com/marcoantn020/angular-memoteca"
                 :image_1="asset('imagens/projects/memoteca.png')"
                 :image_2="asset('imagens/projects/memoteca2.png')"
             />
