@@ -23,6 +23,7 @@
             function="Responsável pela manutenção de sistema contabil legado na linguagem clarion 6 com banco de dados PostgreSQL,
                     correção de bugs e implementação de novas funcionalidades conforme as necessidades do negócio,
                     pensando em como otimizar e garantir a eficiência e a integridade do sistema."
+            obs="Cumprindo aviso prévio, término do contrato 31/01/2024"
             />
         </div>
 
