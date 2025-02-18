@@ -1,7 +1,6 @@
 <x-guest-layout>
     <h4 class="text-2xl font-bold dark:text-white">Projetos</h4>
     <h4 class="text-xl font-bold dark:text-white">Java</h4>
-
     <div class="flex justify-start gap-4 flex-wrap">
         <x-projects.card-corousel-projects>
 
@@ -89,7 +88,6 @@
 
     <hr>
     <h4 class="text-xl font-bold dark:text-white">Angular</h4>
-
     <div class="flex justify-start gap-4 flex-wrap">
         <x-projects.card-corousel-projects>
 
@@ -124,5 +122,25 @@
 
         </x-projects.card-corousel-projects>
 
+    </div>
+
+    <hr>
+    <h4 class="text-xl font-bold dark:text-white">PHP</h4>
+
+    <div class="flex justify-start gap-4 flex-wrap">
+
+        <x-projects.card-corousel-projects>
+            <x-projects.card-project-detail
+                title="Sistema de Vendas"
+                git="https://github.com/marcoantn020/sistema-vendas-inertia"
+                :image_1="asset('imagens/projects/php-sistema-vendas-1.png')"
+                :image_2="asset('imagens/projects/php-sistema-vendas-2.png')"
+            />
+        </x-projects.card-corousel-projects>
+
+    </div>
+
+    <div class="mt-4">
+        &nbsp;
     </div>
 </x-guest-layout>
