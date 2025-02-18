@@ -4,9 +4,9 @@
 
         <p class="px-2 mb-3 text-left text-gray-500 rtl:text-right dark:text-gray-400">
             Sou natural do estado do paraná, moro em uma pequena cidade chamada Vera Cruz no interior de São Paulo
-            não sou casado, gosto bastante ler manhua e manhwa, jogar bola e fazer caminhadas,
+            não sou casado, gosto bastante de ler manhua e manhwa, jogar bola e fazer caminhadas,
             sou desenvolvedor web com experiência em projetos web e criação de apis,
-            utilizando tecnologias como Laravel, MySQL, Docker, Javascript, Python, React e Vuejs.
+            utilizando tecnologias como PHP, Java, MySQL, Docker, Javascript, Python, React, Vuejs e Angular.
             Atualmente trabalhando com desenvolvimento desktop com a linguagem clarion 6, mas buscando
             oportunidades em programação web com foco no backend.
         </p>
